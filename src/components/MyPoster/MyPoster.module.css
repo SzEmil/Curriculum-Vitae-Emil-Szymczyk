@@ -1,0 +1,17 @@
+.myImgWrapper {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myImg {
+  width: 400px;
+  height: auto;
+  border-radius: 100px 100px 0 0;
+  background: linear-gradient(
+    173deg,
+    rgba(10, 201, 201, 1) 5%,
+    rgba(0, 0, 0, 0.18109250536151966) 50%
+  );
+}

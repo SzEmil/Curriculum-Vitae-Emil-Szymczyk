@@ -30,7 +30,7 @@ export const OverviewLink = () => {
           setTypedText('');
         }, 1000);
       }
-    }, 65);
+    }, 100);
     return () => clearInterval(typingInterval);
   }, [currentSentenceIndex, currentLetterIndex]);
 

@@ -61,9 +61,9 @@
   font-size: 18px;
   line-height: 21px;
 
-  background-color: rgb(31, 31, 54);
-  color: rgb(49, 207, 212);
-  border: 0.5px solid rgb(49, 207, 212);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 0.5px solid var(--secondary-color);
   padding: 10px;
   border-radius: 5px;
 
@@ -71,13 +71,13 @@
   transition: color 300ms ubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .cvLink:hover {
-  background-color: rgb(49, 207, 212);
-  color: rgb(31, 31, 54);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .contactLink {
-  background-color: rgb(49, 207, 212);
-  color: rgb(31, 31, 54);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   padding: 10px;
   border-radius: 5px;
 
@@ -91,8 +91,8 @@
   transition: color 300ms ubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .contactLink:hover {
-  background-color: rgb(31, 31, 54);
-  color: rgb(49, 207, 212);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .homeLink {
