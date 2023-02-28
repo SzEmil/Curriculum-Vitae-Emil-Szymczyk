@@ -1,4 +1,5 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 body {
   margin: 0;
@@ -7,9 +8,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: rgb(31, 31, 54);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.wrapper {
+  margin: 0 200px 0 200px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
 }
