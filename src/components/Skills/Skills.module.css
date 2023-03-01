@@ -37,7 +37,8 @@
   padding-top: 20px;
 }
 .skillsCard {
-  background-color: rgb(37, 37, 73);
+  /* background-color: rgb(37, 37, 73); */
+
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -60,6 +61,9 @@
 .skillsCardItem {
   padding: 0 25px 0 25px;
 }
+.skillsCardItem:hover .skillsCardImg {
+  scale: 1.2;
+}
 .skillsCardList {
   display: flex;
   justify-content: space-between;
@@ -67,6 +71,8 @@
 .skillsCardImg {
   width: 64px;
   height: auto;
+
+  transition: scale 250ms ease;
 }
 
 .skillsCardSoftList {
