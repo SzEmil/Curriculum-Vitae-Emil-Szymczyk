@@ -2,7 +2,7 @@
   width: 1200px;
 }
 .about {
-  margin-top: 300px;
+  margin-top: 200px;
 }
 .aboutWrapper {
   display: flex;
@@ -88,4 +88,15 @@
 .contactLink:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color);
+}
+
+.hobbysWrapper {
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hobbysImg {
+  width: 120px;
+  height: auto;
 }

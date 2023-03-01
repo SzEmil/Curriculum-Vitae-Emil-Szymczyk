@@ -1,0 +1,84 @@
+.skills {
+  margin-top: 200px;
+}
+.container {
+  width: 1200px;
+}
+.skillsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skillsHead {
+  color: white;
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 34px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+.skillsHeadThird {
+  color: rgb(184, 184, 184);
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+.skillsCardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+  padding-top: 20px;
+}
+.skillsCard {
+  background-color: rgb(37, 37, 73);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.skillsCardHeader {
+  color: white;
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  padding-bottom: 15px;
+  margin: 0;
+  padding: 10px;
+}
+.skillsCardListWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.skillsCardItem {
+  padding: 0 25px 0 25px;
+}
+.skillsCardList {
+  display: flex;
+  justify-content: space-between;
+}
+.skillsCardImg {
+  width: 64px;
+  height: auto;
+}
+
+.skillsCardSoftList {
+  display: flex;
+  justify-content: space-between;
+}
+.skillsCardSoft {
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  margin: 0;
+}
