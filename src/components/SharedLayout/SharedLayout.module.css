@@ -1,5 +1,7 @@
 .container {
-  width: 1200px;
+  min-width: 320px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .wrapper {
@@ -102,4 +104,15 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
+  padding-top: 20px;
+
+  transition: color 250ms ease;
+}
+.homeLink:hover {
+  color: var(--secondary-color);
+}
+@media screen and (min-width: 769px) {
+}
+
+@media screen and (min-width: 1200px) {
 }

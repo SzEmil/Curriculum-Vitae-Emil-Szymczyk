@@ -2,7 +2,10 @@
   margin-top: 200px;
 }
 .container {
-  width: 1200px;
+  min-width: 320px;
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 .portfolioWrapper {
   display: flex;

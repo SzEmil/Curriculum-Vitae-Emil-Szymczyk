@@ -7,7 +7,6 @@ const sentences = [
   ' I like New challenges',
   ' I am open to personal development',
   'My tech stack: HTML5, CSS3, JS, React',
-  'I associate my future with development in React technology',
 ];
 
 export const OverviewLink = () => {

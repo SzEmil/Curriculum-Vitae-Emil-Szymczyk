@@ -1,0 +1,95 @@
+.container {
+  max-width: 1200px;
+}
+
+.contact {
+  margin-top: 50px;
+}
+.contactWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  background-color: rgb(31, 31, 54);
+  min-width: 370px;
+}
+.title {
+  color: rgb(49, 207, 212);
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.textarea {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  max-width: 800px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+.button {
+  background-color: rgb(49, 207, 212);
+  color: rgb(31, 31, 54);
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+  transition: color 300ms ease;
+
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.button:hover {
+  background-color: rgb(31, 31, 54);
+  color: rgb(49, 207, 212);
+}

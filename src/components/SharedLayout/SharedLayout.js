@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from 'react-router-dom';
 import { OverviewLink } from 'components/OverviewLink/OverviewLink';
+import { Footer } from 'components/Footer/Footer';
 import clsx from 'clsx';
 import css from './SharedLayout.module.css';
 
@@ -35,6 +36,7 @@ export const SharedLayout = () => {
       </header>
 
       <Outlet />
+      <Footer />
     </>
   );
 };

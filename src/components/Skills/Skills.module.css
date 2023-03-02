@@ -1,8 +1,10 @@
 .skills {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .container {
-  width: 1200px;
+  min-width: 320px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .skillsWrapper {
   display: flex;
@@ -33,7 +35,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 60%;
+  width: 100%;
   padding-top: 20px;
 }
 .skillsCard {
@@ -53,23 +55,36 @@
   margin: 0;
   padding: 10px;
 }
-.skillsCardListWrapper {
+.skillsBox {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.skillsCardListWrapper {
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
   padding: 10px;
 }
 .skillsCardItem {
-  padding: 0 25px 0 25px;
+  padding: 25px 0 25px 0;
 }
 .skillsCardItem:hover .skillsCardImg {
   scale: 1.2;
 }
 .skillsCardList {
   display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
 }
 .skillsCardImg {
-  width: 64px;
+  width: 84px;
+
   height: auto;
 
   transition: scale 250ms ease;
@@ -77,14 +92,92 @@
 
 .skillsCardSoftList {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 .skillsCardSoft {
   font-style: normal;
   font-family: 'Roboto';
   font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 18px;
   color: white;
   margin: 0;
+
+  padding: 0 0 10px 0;
+}
+@media screen and (min-width: 769px) {
+}
+
+@media screen and (min-width: 1200px) {
+  .skills {
+    margin-top: 200px;
+  }
+  .skillsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .skillsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skillsCardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    padding-top: 20px;
+  }
+  .skillsCard {
+    /* background-color: rgb(37, 37, 73); */
+
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .skillsCardHeader {
+    color: white;
+    font-style: normal;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    padding-bottom: 15px;
+    margin: 0;
+    padding: 10px;
+  }
+  .skillsCardListWrapper {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .skillsCardItem {
+    padding: 0 25px 0 25px;
+  }
+ 
+  .skillsCardList {
+    flex-direction: row;
+  }
+  .skillsCardImg {
+    width: 72px;
+    height: auto;
+
+    transition: scale 250ms ease;
+  }
+
+  .skillsCardSoftList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .skillsCardSoft {
+    font-style: normal;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    margin: 0;
+  }
 }

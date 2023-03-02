@@ -16,7 +16,7 @@ export const About = () => {
                 className={clsx(css.myImg)}
               />
             </div>
-            <div>
+            <div className={clsx(css.hobbyBox)}>
               <div className={clsx(css.hobbysWrapper)}>
                 <div>
                   <img
