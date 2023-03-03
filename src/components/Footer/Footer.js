@@ -1,7 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './Footer.module.css';
-
+import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 export const Footer = () => {
   return (
     <footer className={styles.footer}>
@@ -45,15 +46,23 @@ export const Footer = () => {
             </form>
           </div>
           <div className={clsx(styles.column, styles.github)}>
-            <h3>Github</h3>
-            <p>See my projects on Github:</p>
-            <a
-              href="https://github.com/SzEmil"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              SzEmil
-            </a>
+            <h3>Social media</h3>
+            <div className={clsx(styles.social)}>
+              <a
+                href="https://github.com/SzEmil"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={clsx(styles.socialLink)}
+              >
+                <AiFillGithub size={48} />
+              </a>
+              <a
+                className={clsx(styles.socialLink)}
+                href="https://www.linkedin.com/in/emil-szymczyk-209613209/"
+              >
+                <AiFillLinkedin size={48} />
+              </a>
+            </div>
           </div>
         </div>
       </div>

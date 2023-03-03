@@ -10,6 +10,7 @@ export const projectsList = [
       'Javascript',
       'React',
       'react-router',
+      'React Context',
       'Hooks',
       'Api',
       'css-modules',
@@ -65,7 +66,7 @@ export const projectsList = [
     id: 'project5',
     name: 'Strizzes company site',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334542769_213564567911307_1449664922791667819_n.png?_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=3nZ4eBLkHUgAX-sGJ7a&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTCGtoTWpMPlBFZ6tMnnZFYojG6qP1L_yv68aBFikPbMA&oe=6426E110',
+      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334851407_1254699808459355_9207949748931919781_n.png?_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=VCgfm4tTi6EAX-ljanV&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRBs_FEsqQLCDP_CZ7_IHLeCBxTiWGhaU0Cnl6kfPFZXQ&oe=6429C3CA',
     tech: ['HTML5', 'CSS3', 'Javascript', 'BEM', 'SASS', 'RWD'],
     overwiev:
       'A page used to present the company s available opportunities. The website is equipped with photo galleries and a contact form.',
