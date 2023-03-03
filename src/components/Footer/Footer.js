@@ -39,8 +39,8 @@ export const Footer = () => {
                 name="_next"
                 value="https://szemil.github.io/Curriculum-Vitae-Emil-Szymczyk/"
               />
-              <input type="email" placeholder="Email" />
-              <textarea placeholder="Wiadomość"></textarea>
+              <input type="email" placeholder="Email" name="email" />
+              <textarea placeholder="Message" name="text"></textarea>
               <button type="submit">Submit</button>
             </form>
           </div>

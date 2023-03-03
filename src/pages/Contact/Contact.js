@@ -28,6 +28,7 @@ export const Contact = () => {
                 className={clsx(css.input)}
                 type="email"
                 placeholder="Youre email address"
+                name="email"
               />
             </label>
             <label className={css.label}>
@@ -35,6 +36,7 @@ export const Contact = () => {
               <textarea
                 className={css.textarea}
                 placeholder="Your message"
+                name="text"
               ></textarea>
             </label>
             <button className={css.button} type="submit">
