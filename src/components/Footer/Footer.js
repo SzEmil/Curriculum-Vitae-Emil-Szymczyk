@@ -24,7 +24,7 @@ export const Footer = () => {
                 Phone number: +48 793686522
               </span>
             </a>
-            <form
+            {/* <form
               className={clsx(styles.form)}
               action="https://formsubmit.co/f28d6c390aedf929c9efa17a9becb022"
               method="POST"
@@ -43,7 +43,7 @@ export const Footer = () => {
               <input type="email" placeholder="Email" name="email" />
               <textarea placeholder="Message" name="text"></textarea>
               <button type="submit">Submit</button>
-            </form>
+            </form> */}
           </div>
           <div className={clsx(styles.column, styles.github)}>
             <h3>Social media</h3>
