@@ -1,11 +1,6 @@
-# React homework template
+# Welcome to my profile
 
-Этот проект был создан при помощи
-[Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей
-[обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
+Effect-oriented programming has always been with me, so I decided to become a Frontend Developer. I'm passionate about IT and design in which I'm seeking for growth opportunities. If you want to see more of my projects, please visit the repositories tab.
 
-
-![Creating repo from a template step 1](./assets/template-step-1.png)
-
-
+Let's talk on my social media:
+[linkedIn](https://www.linkedin.com/in/emil-szymczyk-209613209/)
