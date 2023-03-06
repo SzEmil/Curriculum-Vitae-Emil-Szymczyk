@@ -22,8 +22,7 @@ export const SharedLayout = () => {
               </NavLink>
               <a
                 className={clsx(css.cvLink)}
-                href="./public/Jr_Frontend_dev_Emil_Szymczyk.pdf"
-                download
+                href="https://drive.google.com/file/d/1XypOIEUVR3budyFNn653HpUoUA2DWjZZ/view?usp=sharing"
               >
                 Download CV
               </a>
