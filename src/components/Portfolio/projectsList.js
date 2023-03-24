@@ -45,11 +45,22 @@ export const projectsList = [
     name: 'Phonebook (React)',
     picture:
       'https://scontent.xx.fbcdn.net/v/t1.15752-9/333613275_599212218323003_2583016704502983028_n.png?_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=Pdrq0vL2QTMAX_jDvGi&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQLSMwJMYvQv_beP1TAKNilcoq5g5JqYviLijew8H9cOA&oe=642703F6',
-    tech: ['HTML5', 'CSS3', 'Javascript', 'React', 'Hooks', 'css-modules'],
+    tech: [
+      'HTML5',
+      'CSS3',
+      'Javascript',
+      'React',
+      'Redux',
+      'Auth',
+      'JWT',
+      'Hooks',
+      'Persist',
+      'css-modules',
+    ],
     overwiev:
       'A react application that is the first steps in learning with this library. The application is used to add contacts to your phonebook. The application uses react hooks, local-storage or css-modules.',
-    web: 'https://szemil.github.io/Phonebook-React-app/',
-    git: 'https://github.com/SzEmil/Phonebook-React-app',
+    web: 'https://szemil.github.io/goit-react-hw-08-phonebook/',
+    git: 'https://github.com/SzEmil/goit-react-hw-08-phonebook',
   },
   {
     id: 'project4',
