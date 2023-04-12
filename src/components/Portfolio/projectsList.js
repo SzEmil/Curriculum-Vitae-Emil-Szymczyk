@@ -3,7 +3,7 @@ export const projectsList = [
     id: 'project1',
     name: 'Filmoteka (React)',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334317788_1247708242846948_763576763928455313_n.png?_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=P97l-tnzw6UAX_l3QF_&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQrXtWKFf-XqaoJY71IBSRp56WN5e2_BiCJ7pVgE8F7yw&oe=6426E1D0',
+      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334317788_1247708242846948_763576763928455313_n.png?_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeE3cHC9Iwq25El5hpygb_zMOV1oIC9FDYA5XWggL0UNgIBIJJFUM3Jb3kdfYfYz0_p7e6cTpeD-P1m7GotKPubK&_nc_ohc=Oc0agFqEp90AX9TkGNY&_nc_ht=scontent.xx&oh=03_AdQ_bhqThA__VY-HOvlOiYrlQ9I4tln91L_vk2nhiQr4dQ&oe=645DD050',
     tech: [
       'HTML5',
       'CSS3',
@@ -25,7 +25,7 @@ export const projectsList = [
     id: 'project2',
     name: 'Search Images (React)',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334499257_1563348837473174_5290517404562868310_n.png?_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=Gtn5wTLUuGkAX-tDy9t&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQzEF7SR_8eOJVjjcPSYeA84ZflZ-bhQc9cFMbXgDH_3Q&oe=6426E2E5',
+      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334499257_1563348837473174_5290517404562868310_n.png?_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeF5kU5r-ZL3eJPstE5sGGE9wXncBF9tLDrBedwEX20sOlMwqIu9rM-nc8h3skCmoJZnuPAHY9CVdR7PMHuAbJ3m&_nc_ohc=Y_nOiGm9-GoAX_Z-isr&_nc_ht=scontent.xx&oh=03_AdTrbWmPKu9qcagPR3mS0gi8V9gEmg7W8ZMfowT3xgm2XQ&oe=645DD165',
     tech: [
       'HTML5',
       'CSS3',

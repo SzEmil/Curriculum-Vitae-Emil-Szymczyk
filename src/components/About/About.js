@@ -21,21 +21,21 @@ export const About = () => {
                 <div>
                   <img
                     className={clsx(css.hobbysImg)}
-                    src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334287603_752856276510252_4421287918504714941_n.png?stp=dst-png_p1080x2048&_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_ohc=ic4IBt6zTykAX9n4OF1&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ9KXvhVLmmTJMu3bMjPfnOwsW5hf6WwzIVLPPu12yzsg&oe=6426E9CD"
+                    src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332100313_1449813155550581_1852114687805046348_n.png?_nc_cat=103&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeE6d29VQ_LtZpfVsw-RIHMyPdlcbsl3G2Q92VxuyXcbZD8E7jeA7qS90m-8vFD04-4bhx7rNM6KXiCumYzA3OXo&_nc_ohc=Po5yU41l-akAX_9KxTI&_nc_ht=scontent.xx&oh=03_AdQ2LitGt6PNjHg_7cht678ZgK4FS64TmcPzSDXFzXFsZQ&oe=645DD57F"
                     alt="football pic"
                   />
                 </div>
                 <div>
                   <img
                     className={clsx(css.hobbysImg)}
-                    src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332100313_1449813155550581_1852114687805046348_n.png?_nc_cat=103&ccb=1-7&_nc_sid=aee45a&_nc_ohc=nXylxPdb_hkAX_MZVaf&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSPpAv46RNXomEcRCudl4ofTSyY7sC1MH-eOYYTsnUk8w&oe=6426E6FF"
+                    src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332032790_1603627126716652_8730413911266970293_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeHsti_m14LPQ16ISWwU3hsfIMslV2VhJy8gyyVXZWEnL8gMAjN8EKNZO-6Xlq1FpiwsOcCjarDciwhjfCyAl3n_&_nc_ohc=vqNw2pGttm0AX-SiwaB&_nc_ht=scontent.xx&oh=03_AdSURvOzB_K7pzhjaYhVxpt5KAZlzDPSXtdlCWHsUokgbA&oe=645DBA1A"
                     alt="football pic"
                   />
                 </div>
                 <div>
                   <img
                     className={clsx(css.hobbysImg)}
-                    src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332032790_1603627126716652_8730413911266970293_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=cTBC3gcuKHsAX8TgVsb&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdR2Be2gUYMtMWnv6SBmVWOYuiVfbcq4gzEQsImQnfQF5A&oe=6426CB9A"
+                    src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334287603_752856276510252_4421287918504714941_n.png?stp=dst-png_p1080x2048&_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGxcNPg-OASj-Lno0gAPVnWwdwlMT4fBJvB3CUxPh8Em9z1-CU46Ioeponfig0YzrCBPhPLJiIhSRcBM7ZGFdV_&_nc_ohc=Xx0kQ1zZ5fQAX_hCwQm&_nc_ht=scontent.xx&oh=03_AdSpPz_afDxrVQmqTqFs6lLUBTter7RMp0qZzSz_-ObSfg&oe=645DD84D"
                     alt="football pic"
                   />
                 </div>
