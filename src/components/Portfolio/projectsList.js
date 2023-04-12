@@ -66,7 +66,7 @@ export const projectsList = [
     id: 'project4',
     name: 'Films Library (Group project)',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334238063_1441991012873426_6781570290327864535_n.png?_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=XE8oTM-CzLEAX8O40Tu&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ6B0cjI-AcB_mKWyx32uAAeJ0Fy_lW4zelEHa2-oSEDg&oe=6426FAAE',
+      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334238063_1441991012873426_6781570290327864535_n.png?_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFHJLnMXKKxwvnrvBQyz-4pJGz_jmq_WT4kbP-Oar9ZPl4mmuQt-gu2bU0X-UlBweyQ0wyzj4n95ZqG99Mo98hF&_nc_ohc=gTP9pYQhB-QAX87qPol&_nc_ht=scontent.xx&oh=03_AdRgBWV0dZ6fseW4cmwDl7LpzCato5cR6CEj50nTzgPn7Q&oe=645DB0EE',
     tech: ['HTML5', 'CSS3', 'Javascript', 'RWD', 'Api', 'Firebase'],
     overwiev:
       'Team leader of a group project based on javascript. My task was to code review, ensure the timeliness of the tasks performed, program the home page and user login panel using Firebase. The user on the website has the ability to view movies from the provided api database. After logging in, the user gets the option to add movies to his own library.',
@@ -77,7 +77,7 @@ export const projectsList = [
     id: 'project5',
     name: 'Strizzes company site',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334851407_1254699808459355_9207949748931919781_n.png?_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=VCgfm4tTi6EAX-ljanV&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRBs_FEsqQLCDP_CZ7_IHLeCBxTiWGhaU0Cnl6kfPFZXQ&oe=6429C3CA',
+      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334542769_213564567911307_1449664922791667819_n.png?_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFtEXtT4me-i3KYuqQ0GU6u8gntT17D_WzyCe1PXsP9bIYvbl1ZqIpg1C5BOTOK6r1Z_2qKheTahozzqnTFSb4D&_nc_ohc=aV7gdytSkSQAX-lbhg_&_nc_ht=scontent.xx&oh=03_AdQ4LstgaXJ9W1vEd2OfLls9m0PcgVLxhNwx3UuQQz8nEA&oe=645DCF90',
     tech: ['HTML5', 'CSS3', 'Javascript', 'BEM', 'SASS', 'RWD'],
     overwiev:
       'A page used to present the company s available opportunities. The website is equipped with photo galleries and a contact form.',
@@ -88,7 +88,7 @@ export const projectsList = [
     id: 'project6',
     name: 'Breakout game',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334216418_215376081056081_168685371735668157_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=vz-trYHcKNAAX8xpnEE&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTpXEuhTJWWHvbFGmM14bqjSXHY0PDjxDbf9RKfsgxxIw&oe=6426D91C',
+      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334216418_215376081056081_168685371735668157_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeHSH3UABNTdF5_j-KPB1kqu7QTuU_rF9vrtBO5T-sX2-jzGXe_wqfRKna_AqnJQZ25Hc04Nl5m-WwRQsNtPanai&_nc_ohc=9TNAarJGXasAX_kdKGA&_nc_ht=scontent.xx&oh=03_AdT_xE6N5F5_rJzHh0guiKmPjpezZr55C7wSp7xlhUb-1Q&oe=645DC79C',
     tech: ['HTML5', 'CSS3', 'Javascript'],
     overwiev:
       'A simple game based on javascript. A project for a class in college. It uses vanilla javascript. The player s task is to break all the blocks by bouncing the ball off the paddle which is controlled with the keyboard.',
@@ -99,7 +99,7 @@ export const projectsList = [
     id: 'project7',
     name: 'Search Country',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/333584463_1240267456918996_5687473155014036196_n.png?_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=LSAQdPXXYTMAX9sOi0m&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdR8nU_vIksVt1i0Dbe2ChXKo-qHulttLsvo9Znp47YO6Q&oe=6427025E',
+      'https://scontent.xx.fbcdn.net/v/t1.15752-9/333584463_1240267456918996_5687473155014036196_n.png?_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeHJjbDDUFY4M9ZcpYax6JDbgREujow2S8uBES6OjDZLy_S6A9qfAQ8JaPvfRM0H4bue5_ZoXaZ6hKB02rtuJDjP&_nc_ohc=UoFElvbPkcQAX8Rrd-H&_nc_ht=scontent.xx&oh=03_AdTR13L7G4sMAHgzhJMGBC_6nd2eZPTRjiUbLN3JHmViIQ&oe=645DB89E',
     tech: ['HTML5', 'CSS3', 'Javascript', 'Api'],
     overwiev:
       'A page used to search for countries based on the data entered in the form.',
@@ -110,7 +110,7 @@ export const projectsList = [
     id: 'project8',
     name: 'Icecream site (Group project)',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334094331_721251949642188_7021694041130239729_n.png?_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_ohc=jMUlvEWHCXAAX-Aq3yi&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSVWnjB2RnEeCM33OJzODrBVp76YKacwaETGxa6ZXyaGA&oe=6426E9DF',
+      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334094331_721251949642188_7021694041130239729_n.png?_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeEJyuMO-9LSBKunDWMiry6LgovJu8A7ghWCi8m7wDuCFambBU0Upq9DtAbCrIf9Jh93p47Uzk-9KHaj7bLClUiY&_nc_ohc=U2Mto-KEaoQAX8i4mqf&_nc_ht=scontent.xx&oh=03_AdTXUDiu_H3oWQX2fgGTMgloBLYXDWmRttq9RibDu_4KAA&oe=645DD85F',
     tech: ['HTML5', 'CSS3', 'Javascript', 'RWD', 'BEM', 'SASS'],
     overwiev:
       'Team leader of a group project. My task was to take care of the correctness of the code or the timeliness of the tasks performed. The site is based mainly on HTML and CSS with a small amount of javascript. This page represents a potential ice cream shop site. The user can learn how his favorite flavors are made.',
@@ -121,7 +121,7 @@ export const projectsList = [
     id: 'project9',
     name: 'Webstudio',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334530873_224739496689351_5856577798663553510_n.png?_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=ZrRbmZAvrr0AX8BB3MS&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRBQzUUN-r46CpsXG0tw58dpsFbGH0AMMuq2PfHy-YeNg&oe=6426EFDB',
+      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334530873_224739496689351_5856577798663553510_n.png?_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeEfZvm17-a6V-xIumu50yanHc6oDyz8zQ0dzqgPLPzNDab_uel82061mldd5h8M6aD-AmNX0K-5w7tJd6PzsiGG&_nc_ohc=rqb4ACC3cr0AX8L8cR7&_nc_ht=scontent.xx&oh=03_AdTIZ6Z5894EbFTpuYV0tIqyUoABZK7u4SiscT03x2Fm2A&oe=645DA61B',
     tech: ['HTML5', 'CSS3', 'Javascript', 'BEM', 'SASS', 'RWD'],
     overwiev:
       'The first step in development as a web developer. A simple website using HTML and CSS with little javascript for modal windows or mobile menu. The page could be a potential website for a web design company.',

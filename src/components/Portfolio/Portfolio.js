@@ -72,7 +72,7 @@ export const Portfolio = () => {
                         <img
                           className={clsx(css.projectDesriptionGit)}
                           alt="git pic"
-                          src="https://scontent.xx.fbcdn.net/v/t1.15752-9/333613275_157166563826589_61108254476814997_n.png?_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_ohc=4tNK30T3pqEAX_Cbaak&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRAEjqNkGluHcWp5bsVr2JFBsjBecBZiSLEy0QD80mEzA&oe=64271D00"
+                          src="https://scontent.xx.fbcdn.net/v/t1.15752-9/333613275_157166563826589_61108254476814997_n.png?_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGh_950AxPvglJhY_yiO6q4emwDd_fQohJ6bAN399CiEiGWuXEx_O5b1-n4NkXmDGcImaDpHBAs0LOJaZq4eLuN&_nc_ohc=Zm6cS8qsNN8AX_2MOEm&_nc_ht=scontent.xx&oh=03_AdQJnxZbFsoJbrn0YxHoRRuy5eiVq0H79P5RiSNP5QSGUQ&oe=645DD340"
                         />
                       </a>
                     </div>
