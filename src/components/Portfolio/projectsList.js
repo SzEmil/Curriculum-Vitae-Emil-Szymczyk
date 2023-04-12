@@ -44,7 +44,7 @@ export const projectsList = [
     id: 'project3',
     name: 'Phonebook (React)',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/333613275_599212218323003_2583016704502983028_n.png?_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=Pdrq0vL2QTMAX_jDvGi&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQLSMwJMYvQv_beP1TAKNilcoq5g5JqYviLijew8H9cOA&oe=642703F6',
+      'https://scontent.xx.fbcdn.net/v/t1.15752-9/339666527_634501431871858_1467662005926718863_n.png?_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeG6Gqc242lx7gVeMpFNKWuyLbWGGZ--iQ8ttYYZn76JD8nhaggupq2N32SsHYBHM8yqWzriuYPR-LV398f1A9ww&_nc_ohc=ETlZjzH3H7QAX_ASLCM&_nc_oc=AQlXo7thFVUGgXfgZvyqi3Ixva0N-JHkY14bDN06qIx_Lp6m_j3ky_IsusN_wzcmaQEtv8gmXQ2Zf_MQer_jP7-N&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQjjfPhdOwcFd72nZTOy_uTyrH8h1FHfad8xXOBRLvJIA&oe=645DB213',
     tech: [
       'HTML5',
       'CSS3',
