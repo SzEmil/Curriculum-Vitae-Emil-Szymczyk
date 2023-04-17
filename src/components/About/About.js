@@ -1,9 +1,17 @@
 import css from './About.module.css';
 import clsx from 'clsx';
 import { NavLink } from 'react-router-dom';
+import { useInView } from 'react-intersection-observer';
 export const About = () => {
+  const { ref, inView } = useInView({
+    rootMargin: '-100px 0px',
+    triggerOnce: false,
+  });
   return (
-    <section className={clsx(css.about)}>
+    <section
+      ref={ref}
+      className={clsx(css.about, inView ? css.isVisible : css.noVisible)}
+    >
       <div className={clsx(css.container)}>
         <div className={clsx(css.aboutWrapper)}>
           <h3 className={clsx(css.aboutHeadThird)}>Good to know</h3>

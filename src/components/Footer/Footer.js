@@ -3,9 +3,17 @@ import clsx from 'clsx';
 import styles from './Footer.module.css';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
+import { useInView } from 'react-intersection-observer';
 export const Footer = () => {
+  const { ref, inView } = useInView({
+    rootMargin: '-100px 0px',
+    triggerOnce: false,
+  });
   return (
-    <footer className={styles.footer}>
+    <footer
+      ref={ref}
+      className={(styles.footer, inView ? styles.isVisible : styles.noVisible)}
+    >
       <div className={styles.container}>
         <div className={styles.row}>
           <div className={clsx(styles.column, styles.contact)}>

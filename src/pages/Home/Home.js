@@ -3,10 +3,10 @@ import { About } from 'components/About/About';
 import { Portfolio } from 'components/Portfolio/Portfolio';
 import { Skills } from 'components/Skills/Skills';
 export const Home = () => {
+
   return (
     <>
-      {/* <MyPoster /> */}
-      <About />
+      <About/>
       <Skills />
       <Portfolio />
     </>

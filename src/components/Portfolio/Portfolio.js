@@ -3,8 +3,13 @@ import css from './Portfolio.module.css';
 import { projectsList } from './projectsList';
 import { useState } from 'react';
 import { nanoid } from 'nanoid';
+import { useInView } from 'react-intersection-observer';
 export const Portfolio = () => {
-  //   const [overview, setOverview] = useState(false);
+  const { ref, inView } = useInView({
+    rootMargin: '-100px 0px',
+    triggerOnce: false,
+  });
+
   const [activeProjectId, setActiveProjectId] = useState(null);
 
   const handleClick = id => {
@@ -12,7 +17,10 @@ export const Portfolio = () => {
   };
 
   return (
-    <section className={clsx(css.portfolio)}>
+    <section
+      ref={ref}
+      className={clsx(css.portfolio, inView ? css.isVisible : css.noVisible)}
+    >
       <div className={clsx(css.container)}>
         <div className={clsx(css.portfolioWrapper)}>
           <h3 className={clsx(css.portfolioHeadThird)}>

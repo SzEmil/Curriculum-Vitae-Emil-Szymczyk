@@ -154,3 +154,14 @@
 .projectDesriptionGitLink:hover .projectDesriptionGit {
   scale: 1.2;
 }
+
+.isVisible {
+  opacity: 1;
+  transition: all 1s;
+  filter: blur(0);
+}
+.noVisible {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+}

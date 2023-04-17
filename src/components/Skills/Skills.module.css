@@ -155,7 +155,7 @@
   .skillsCardItem {
     padding: 0 25px 0 25px;
   }
- 
+
   .skillsCardList {
     flex-direction: row;
   }
@@ -180,4 +180,17 @@
     color: white;
     margin: 0;
   }
+}
+
+.isVisible {
+  opacity: 1;
+  transition: all 1s;
+  filter: blur(0);
+  transform: translateX(0);
+}
+.noVisible {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateX(-100%);
 }

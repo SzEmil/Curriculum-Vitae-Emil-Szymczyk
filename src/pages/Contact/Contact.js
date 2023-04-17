@@ -1,8 +1,17 @@
 import clsx from 'clsx';
 import css from './Contact.module.css';
+import { useInView } from 'react-intersection-observer';
 export const Contact = () => {
+  const { ref, inView } = useInView({
+    rootMargin: '-100px 0px',
+    triggerOnce: false,
+    delay: 100,
+  });
   return (
-    <section className={clsx(css.contact)}>
+    <section
+      ref={ref}
+      className={clsx(css.contact, inView ? css.isVisible : css.noVisible)}
+    >
       <div className={clsx(css.container)}>
         <div className={clsx(css.contactWrapper)}>
           <h2 className={clsx(css.title)}>Contact me</h2>

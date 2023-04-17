@@ -1,9 +1,13 @@
 import clsx from 'clsx';
 import css from './Skills.module.css';
-
+import { useInView } from 'react-intersection-observer';
 export const Skills = () => {
+  const { ref, inView } = useInView({
+    rootMargin: '-100px 0px',
+    triggerOnce: false,
+  });
   return (
-    <section className={clsx(css.skills)}>
+    <section ref={ref} className={clsx(css.skills, inView ? css.isVisible : css.noVisible)}>
       <div className={clsx(css.container)}>
         <div className={clsx(css.skillsWrapper)}>
           <h3 className={clsx(css.skillsHeadThird)}>Propably most important</h3>
