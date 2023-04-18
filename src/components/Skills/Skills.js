@@ -7,7 +7,10 @@ export const Skills = () => {
     triggerOnce: false,
   });
   return (
-    <section ref={ref} className={clsx(css.skills, inView ? css.isVisible : css.noVisible)}>
+    <section
+      ref={ref}
+      className={clsx(css.skills, inView ? css.isVisible : css.noVisible)}
+    >
       <div className={clsx(css.container)}>
         <div className={clsx(css.skillsWrapper)}>
           <h3 className={clsx(css.skillsHeadThird)}>Propably most important</h3>
@@ -106,7 +109,7 @@ export const Skills = () => {
                       <p className={clsx(css.skillsCardSoft)}>Comunication</p>
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
-                      <p className={clsx(css.skillsCardSoft)}>Adaptability</p>
+                      <p className={clsx(css.skillsCardSoft)}>Punctuality</p>
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <p className={clsx(css.skillsCardSoft)}>Adaptability</p>
