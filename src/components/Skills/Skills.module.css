@@ -1,5 +1,6 @@
 .skills {
   margin-top: 100px;
+  overflow-x: hidden;
 }
 .container {
   min-width: 320px;
