@@ -1,6 +1,8 @@
 import clsx from 'clsx';
 import css from './Skills.module.css';
 import { useInView } from 'react-intersection-observer';
+
+import { SiTypescript } from 'react-icons/si/';
 export const Skills = () => {
   const { ref, inView } = useInView({
     rootMargin: '-100px 0px',
@@ -40,6 +42,16 @@ export const Skills = () => {
                         className={clsx(css.skillsCardImg)}
                         src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332096124_1898921507112075_1867001865560316565_n.png?stp=cp0_dst-png&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFfqS6DExKppyohkgMyUlamEmqmQKImISgSaqZAoiYhKNWWd0C5rjfjKpG-v9wnoZIghtyOfRAyjcF0NUrnqv8x&_nc_ohc=LrZj0ONsmoAAX-RNKwy&_nc_ht=scontent.xx&oh=03_AdQJ8EsWhDo_3ZBAySJNpvUXQiPV8p2NEW1cKIaCozojew&oe=645DCCF0"
                         alt="ico pic"
+                      />
+                    </li>
+                    <li className={clsx(css.skillsCardItem)}>
+                      <SiTypescript
+                        color="blue"
+                        className={clsx(css.skillsCardImg)}
+                        style={{
+                          backgroundColor: 'white',
+                          borderRadius: '5px',
+                        }}
                       />
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
