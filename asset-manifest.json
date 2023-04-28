@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.92274337.css",
-    "main.js": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.99164094.js",
+    "main.js": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.f615f5bb.js",
     "index.html": "/Curriculum-Vitae-Emil-Szymczyk/index.html",
     "main.92274337.css.map": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.92274337.css.map",
-    "main.99164094.js.map": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.99164094.js.map"
+    "main.f615f5bb.js.map": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.f615f5bb.js.map"
   },
   "entrypoints": [
     "static/css/main.92274337.css",
-    "static/js/main.99164094.js"
+    "static/js/main.f615f5bb.js"
   ]
 }
