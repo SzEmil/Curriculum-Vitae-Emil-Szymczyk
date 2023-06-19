@@ -3,7 +3,7 @@ export const projectsList = [
     id: 'project1',
     name: 'PokeStudio',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/346119037_457984406542464_7220735553168174010_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=3rv3jFHz67cAX_D9ZJy&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRIQJFqsRfYxlA6EiavR6ldgrfk8lOCKOgd2AYyJcq6ew&oe=6490325A',
+      'https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/346119037_457984406542464_7220735553168174010_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=g_P1mBVQZVgAX_-eE9J&_nc_ht=z-p3-scontent.xx&oh=03_AdRdtg86U_DzbLyGDMvwhpXKSCo1xIxhrXA0E3qOU6d0ow&oe=64B66DDA',
     tech: [
       'HTML5',
       'CSS3',
@@ -28,7 +28,7 @@ export const projectsList = [
     id: 'project2',
     name: 'Filmoteka (React)',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334317788_1247708242846948_763576763928455313_n.png?_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=dbtLyKaLuecAX-iOrsE&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQYoqnYr6iu4UDCmafEyhHycgXFjovq5v5Q2b-7LqRPAA&oe=649059D0',
+      'https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334238063_1441991012873426_6781570290327864535_n.png?_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=45bLFJhSx28AX_wN4nt&_nc_ht=z-p3-scontent.xx&oh=03_AdTMfdrzYj_7bDnctxIIq4XdDRivQ8iXIMD7ksNmY1tSNQ&oe=64B675EE',
     tech: [
       'HTML5',
       'CSS3',
@@ -50,7 +50,7 @@ export const projectsList = [
     id: 'project3',
     name: 'Search Images (React)',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334499257_1563348837473174_5290517404562868310_n.png?_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=FhOnUb9ut9sAX9KTm_x&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSTGD7KCLxMfsROndVyERjMscAbLTq3PaiW1dGaIeyj5A&oe=64905AE5',
+      'https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334499257_1563348837473174_5290517404562868310_n.png?_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=-exkLgD1_qUAX89_B3o&_nc_ht=z-p3-scontent.xx&oh=03_AdSavxfVAtXGPC8OIX8MulCKD8DrGCD_rZejfIX9zVqO1w&oe=64B65E25',
     tech: [
       'HTML5',
       'CSS3',
@@ -69,7 +69,7 @@ export const projectsList = [
     id: 'project4',
     name: 'Phonebook (React)',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/333613275_599212218323003_2583016704502983028_n.png?_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=-SrJcrcc6QgAX-akCjt&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRxO-xBxIXn6jwdwOn95WU5c1MnsAq_yV6glHCYsrASGw&oe=649043B6',
+      'https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/333613275_599212218323003_2583016704502983028_n.png?_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=IM8BXEKVUIcAX-2xpo8&_nc_ht=z-p3-scontent.xx&oh=03_AdQvCXlJv98h4vmgRJc2lue8GmoHasMeIeDMPSE8a4rAyw&oe=64B646F6',
     tech: [
       'HTML5',
       'CSS3',
@@ -91,7 +91,7 @@ export const projectsList = [
     id: 'project5',
     name: 'Films Library (Group project)',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334238063_1441991012873426_6781570290327864535_n.png?_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=dlaK92Js_ssAX9Qh2qg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRKr6hU5dCK_FMDQHnNWQHPnCrpByaVvvsNrDO5_7EkCA&oe=64903A6E',
+      'https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334238063_1441991012873426_6781570290327864535_n.png?_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=45bLFJhSx28AX_wN4nt&_nc_ht=z-p3-scontent.xx&oh=03_AdTMfdrzYj_7bDnctxIIq4XdDRivQ8iXIMD7ksNmY1tSNQ&oe=64B675EE',
     tech: ['HTML5', 'CSS3', 'Javascript', 'RWD', 'Api', 'Firebase'],
     overwiev:
       'Team leader of a group project based on javascript. My task was to code review, ensure the timeliness of the tasks performed, program the home page and user login panel using Firebase. The user on the website has the ability to view movies from the provided api database. After logging in, the user gets the option to add movies to his own library.',
@@ -102,7 +102,7 @@ export const projectsList = [
     id: 'project6',
     name: 'Strizzes company site',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334542769_213564567911307_1449664922791667819_n.png?_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=vZYJJGdD3rMAX9klORJ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQMIo1CoQj1apBA7X0b5Jbtdov3UxFdBf2VakQPhba8Yw&oe=64905910',
+      'https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334542769_213564567911307_1449664922791667819_n.png?_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=tjqd4GTm4iAAX8S7Ruu&_nc_ht=z-p3-scontent.xx&oh=03_AdT8jGxR3tGj53spsTrRjS6IaR0TK48l71XgYq35SZs09A&oe=64B65C50',
     tech: ['HTML5', 'CSS3', 'Javascript', 'BEM', 'SASS', 'RWD'],
     overwiev:
       'A page used to present the company s available opportunities. The website is equipped with photo galleries and a contact form.',
@@ -113,7 +113,7 @@ export const projectsList = [
     id: 'project7',
     name: 'Breakout game',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334216418_215376081056081_168685371735668157_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=lRihVhs-xioAX8zQPnq&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQYJXx1Xf8SGAEPIy2CNDURsxGhPC5np3Qur40q6iDtLA&oe=6490511C',
+      'https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334216418_215376081056081_168685371735668157_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=6XVHwjazJDQAX_R0qEc&_nc_ht=z-p3-scontent.xx&oh=03_AdREA2_bYrrfubEUCaB1iFVC9qDDxOC8G13t_HfNUfKKOg&oe=64B6545C',
     tech: ['HTML5', 'CSS3', 'Javascript'],
     overwiev:
       'A simple game based on javascript. A project for a class in college. It uses vanilla javascript. The player s task is to break all the blocks by bouncing the ball off the paddle which is controlled with the keyboard.',
@@ -124,7 +124,7 @@ export const projectsList = [
     id: 'project8',
     name: 'Search Country',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/333584463_1240267456918996_5687473155014036196_n.png?_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=8vu95nnXc90AX-p5kvP&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQS6Fc2pmU839cJdCaCkTLEegcVhzba6QxkY_YQVJ3_cQ&oe=6490421E',
+      'https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/333584463_1240267456918996_5687473155014036196_n.png?_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=AssIyUgCeLYAX9gKax3&_nc_ht=z-p3-scontent.xx&oh=03_AdTkKknThSFCCy1H4wC2LgVYppNwzOw4dJ5SQZDPReuWzw&oe=64B6455E',
     tech: ['HTML5', 'CSS3', 'Javascript', 'Api'],
     overwiev:
       'A page used to search for countries based on the data entered in the form.',
@@ -135,7 +135,7 @@ export const projectsList = [
     id: 'project9',
     name: 'Icecream site (Group project)',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334094331_721251949642188_7021694041130239729_n.png?_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_ohc=3m5ZXEFtpoIAX8nmGXz&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTr3lbHzwYiNZW9zasQ3jcCfoOKIxtV0l9obqatpi98vw&oe=6490299F',
+      'https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334094331_721251949642188_7021694041130239729_n.png?_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_ohc=M7MAujfZkyEAX-LhM4S&_nc_ht=z-p3-scontent.xx&oh=03_AdTBVp6f_3qUhSWZphDkG8j7Oqn5ATpRJIJyzrIR-2Y0cw&oe=64B6651F',
     tech: ['HTML5', 'CSS3', 'Javascript', 'RWD', 'BEM', 'SASS'],
     overwiev:
       'Team leader of a group project. My task was to take care of the correctness of the code or the timeliness of the tasks performed. The site is based mainly on HTML and CSS with a small amount of javascript. This page represents a potential ice cream shop site. The user can learn how his favorite flavors are made.',
@@ -146,7 +146,7 @@ export const projectsList = [
     id: 'project10',
     name: 'Webstudio',
     picture:
-      'https://scontent.xx.fbcdn.net/v/t1.15752-9/334530873_224739496689351_5856577798663553510_n.png?_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=j1hQgoYFTvEAX8tNvV8&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRtiBYjSvEgt8beJluZmCluXsuhLLJf9YNwiy12hH0dKA&oe=64902F9B',
+      'https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334530873_224739496689351_5856577798663553510_n.png?_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=DIP9e_aiKbQAX-_K7hE&_nc_ht=z-p3-scontent.xx&oh=03_AdT3-9sSflYEMZQeT-l8F9NjHE54rPTECrExWjLlU2CugA&oe=64B66B1B',
     tech: ['HTML5', 'CSS3', 'Javascript', 'BEM', 'SASS', 'RWD'],
     overwiev:
       'The first step in development as a web developer. A simple website using HTML and CSS with little javascript for modal windows or mobile menu. The page could be a potential website for a web design company.',
