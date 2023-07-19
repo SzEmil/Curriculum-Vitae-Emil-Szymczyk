@@ -26,21 +26,21 @@ export const Skills = () => {
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334509218_244149844687202_4513382093802942157_n.png?stp=cp0_dst-png&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=wMh_4pnNa4cAX8vKkLd&_nc_ht=z-p3-scontent.xx&oh=03_AdT7IXi05hryQjXkfKqyiC2Ai0X04DfBMd8mA95XRaGTZA&oe=64B64167"
+                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334509218_244149844687202_4513382093802942157_n.png?stp=cp0_dst-png&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=Zr2fz2d6CoMAX8pDbAN&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdST0myaX_2k-omBU-9pDP2ncghpc4UzjWiornjrAOZ_Vg&oe=64D9D9E7"
                         alt="ico pic"
                       />
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334058146_754629002597747_3557196023037684166_n.png?stp=cp0_dst-png&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=mww49VmMaqQAX9461aH&_nc_ht=z-p3-scontent.xx&oh=03_AdQMN5hlt5BfuI8X4C_L4IoIgT2yZgIxLxPDwJbqc3vjkA&oe=64B64E18"
+                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334058146_754629002597747_3557196023037684166_n.png?stp=cp0_dst-png&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=XuZIXKOWqtMAX-VGR_p&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS6VgwwFnPLtbtkT8yzj0kPd2NTpaJqv1LvRoERjE_qvg&oe=64D9E698"
                         alt="ico pic"
                       />
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/332096124_1898921507112075_1867001865560316565_n.png?stp=cp0_dst-png&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=fI_XNY_MTAwAX_xILw0&_nc_ht=z-p3-scontent.xx&oh=03_AdTojanWgu2s5qoTCq-YfVa8CgqFtYUVUB1BqbglaZ_2SQ&oe=64B659B0"
+                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332096124_1898921507112075_1867001865560316565_n.png?stp=cp0_dst-png&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=4FJ7TRSss2gAX-uWotL&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQpo46d-vp4E1qgz89_1nGa13b2i7eG-A2UqyagHcW-VA&oe=64D9F230"
                         alt="ico pic"
                       />
                     </li>
@@ -57,7 +57,7 @@ export const Skills = () => {
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334297181_654164693380639_5039900204347865199_n.png?stp=cp0_dst-png&_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=J_0HNyZOJpIAX_45Cth&_nc_ht=z-p3-scontent.xx&oh=03_AdThu5v-ioM84AACHYC5tw73ZgbfJNRD5QVGBQQRuqHCbQ&oe=64B64B61"
+                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334297181_654164693380639_5039900204347865199_n.png?stp=cp0_dst-png&_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=h_tVMG564eUAX-4vcDq&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTEEnPlCcSivl-aWYj9Zp0xRZEyZQ49TIwH7V-JhSTgXg&oe=64D9E3E1"
                         alt="ico pic"
                       />
                     </li>
@@ -66,28 +66,28 @@ export const Skills = () => {
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/332098169_907159687266952_5777785164947134451_n.png?stp=cp0_dst-png&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=_dGXwgOArb0AX-fO34_&_nc_ht=z-p3-scontent.xx&oh=03_AdSnTDU4lDLEpdE1ewa8aLJXH_iUI3S6utHTcC93bPejzg&oe=64B65470"
+                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334121956_578550840960648_7016293354037149638_n.png?_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=nfDA9DoatR0AX-YpeTs&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ-kVlYqsjQGTlTv6DOlvC-W_Lt0rPdYujI7RoJJ6Rsgw&oe=64D9C36C"
                         alt="ico pic"
                       />
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334676268_1479399715918189_1631366352366251437_n.png?stp=cp0_dst-png&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=Exh53v0fwAkAX_Dh-ay&_nc_ht=z-p3-scontent.xx&oh=03_AdSFj0ZY43Vq0Opsa1luhLzTBgMrbAyily2jr09AlO41jA&oe=64B64591"
+                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334531802_572897468206591_2342754920938403865_n.png?stp=cp0_dst-png&_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=M_XnjrFXyBkAX_C38cr&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRee-uvPywXToZdZOMW-omvJrAtv67DXkwZhaCHYzVpfQ&oe=64D9E81A"
                         alt="ico pic"
                       />
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334531802_572897468206591_2342754920938403865_n.png?stp=cp0_dst-png&_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=SIhuA-z2EewAX_1SCT0&_nc_ht=z-p3-scontent.xx&oh=03_AdQTfERlNgRVzzLAYIiDXK4UC3_bND3T3Ejy1UwtC1n5TQ&oe=64B64F9A"
+                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334676268_1479399715918189_1631366352366251437_n.png?stp=cp0_dst-png&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=OvHHxtWug-EAX-JwvD6&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdR7LV3UxVfwdV9vgef8mAc95GUG8FNzLBzXSBlz1Ag-Fw&oe=64D9DE11"
                         alt="ico pic"
                       />
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334121956_578550840960648_7016293354037149638_n.png?_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=Cwl-NIlv3xgAX_mfofq&_nc_ht=z-p3-scontent.xx&oh=03_AdT28rBGrSG_54uIg-_qIio1v41J6CibyRkjahIo6Fyqig&oe=64B6632C"
+                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332098169_907159687266952_5777785164947134451_n.png?stp=cp0_dst-png&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=OnYYzL1PWT8AX9AmE9j&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQIj2KHhU24M55V1_q4cNhccCwTjcGk9afvafPh0HMuGg&oe=64D9ECF0"
                         alt="ico pic"
                       />
                     </li>

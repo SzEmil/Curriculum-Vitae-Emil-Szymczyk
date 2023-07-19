@@ -29,21 +29,21 @@ export const About = () => {
                 <div>
                   <img
                     className={clsx(css.hobbysImg)}
-                    src="https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/332100313_1449813155550581_1852114687805046348_n.png?_nc_cat=103&ccb=1-7&_nc_sid=aee45a&_nc_ohc=X7Xr0Q3fWrQAX-rm2XX&_nc_ht=z-p3-scontent.xx&oh=03_AdTiRJ9C0BDmLlcBR1QMgPCH1xpQv47xs9qLNndDoNaXTA&oe=64B6623F"
+                    src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332100313_1449813155550581_1852114687805046348_n.png?_nc_cat=103&ccb=1-7&_nc_sid=aee45a&_nc_ohc=sEtLDyEmxq0AX_qOLe4&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRhCQywV0RUIZ7-JfiocIuG1VXNrDV0CEqgRABmgL0lmA&oe=64D9C27F"
                     alt="football pic"
                   />
                 </div>
                 <div>
                   <img
                     className={clsx(css.hobbysImg)}
-                    src="https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/334287603_752856276510252_4421287918504714941_n.png?stp=dst-png_p1080x2048&_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_ohc=kDeGcLKzQ2UAX8_h3ew&_nc_ht=z-p3-scontent.xx&oh=03_AdQtONbFyYJzVSM_ZEFt1YOPE0Gf99l5R8XybK1e-M7O1g&oe=64B6650D"
+                    src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334287603_752856276510252_4421287918504714941_n.png?stp=dst-png_p1080x2048&_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_ohc=pgZa0aATrOYAX-Sik-V&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRyIAfGE5DGZ4sO7BVm1AFFYJYkw4jWkD10X6HaMJ07GA&oe=64D9C54D"
                     alt="football pic"
                   />
                 </div>
                 <div>
                   <img
                     className={clsx(css.hobbysImg)}
-                    src="https://z-p3-scontent.xx.fbcdn.net/v/t1.15752-9/332032790_1603627126716652_8730413911266970293_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=aVnBQwrsysUAX9JdoPS&_nc_ht=z-p3-scontent.xx&oh=03_AdT91Et_xqF5iPdD7JwL6WdnCJaIRYAKmCu-nb6SEDbPiA&oe=64B646DA"
+                    src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332032790_1603627126716652_8730413911266970293_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=IkIS7fvwOD0AX8UqjkK&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTToUneYcq0TzMd2imGVF8Zv4StdNi5XbxqA1Ijyj6iog&oe=64D9DF5A"
                     alt="football pic"
                   />
                 </div>
