@@ -73,6 +73,9 @@
 }
 .skillsCardItem {
   padding: 25px 0 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .skillsCardItem:hover .skillsCardImg {
   scale: 1.2;
@@ -89,6 +92,14 @@
   height: auto;
 
   transition: scale 250ms ease;
+}
+.imgDescription {
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
 }
 
 .skillsCardSoftList {

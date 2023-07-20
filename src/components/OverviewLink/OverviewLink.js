@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react';
 import styles from './OverviewLink.module.css';
 
 const sentences = [
-  'Hi Im frontend developer',
+  'Hi Im fullstack developer',
   'Im student of mechatronix on master degree',
   ' I like New challenges',
   ' I am open to personal development',
-  'My tech stack: HTML5, CSS3, JS, React',
+  'My tech stack: TS, React, NextJs',
+  'NodeJs, Express, MongoDb, Firebase',
 ];
 
 export const OverviewLink = () => {

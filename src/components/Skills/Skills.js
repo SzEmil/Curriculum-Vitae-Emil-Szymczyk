@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import css from './Skills.module.css';
 import { useInView } from 'react-intersection-observer';
-
+import skillsImages from './utils';
 import { SiTypescript } from 'react-icons/si/';
 export const Skills = () => {
   const { ref, inView } = useInView({
@@ -19,30 +19,33 @@ export const Skills = () => {
           <h2 className={clsx(css.skillsHead)}>My Skills</h2>
           <div className={clsx(css.skillsCardWrapper)}>
             <div className={clsx(css.skillsCard)}>
-              <h3 className={clsx(css.skillsCardHeader)}>Hard Skills</h3>
+              <h3 className={clsx(css.skillsCardHeader)}>Frontend</h3>
               <div className={clsx(css.skillsBox)}>
                 <div className={clsx(css.skillsCardListWrapper)}>
                   <ul className={clsx(css.skillsCardList)}>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334509218_244149844687202_4513382093802942157_n.png?stp=cp0_dst-png&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=Zr2fz2d6CoMAX8pDbAN&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdST0myaX_2k-omBU-9pDP2ncghpc4UzjWiornjrAOZ_Vg&oe=64D9D9E7"
+                        src={skillsImages.html}
                         alt="ico pic"
                       />
+                      <p className={css.imgDescription}>HTML5</p>
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334058146_754629002597747_3557196023037684166_n.png?stp=cp0_dst-png&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=XuZIXKOWqtMAX-VGR_p&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS6VgwwFnPLtbtkT8yzj0kPd2NTpaJqv1LvRoERjE_qvg&oe=64D9E698"
+                        src={skillsImages.css}
                         alt="ico pic"
                       />
+                      <p className={css.imgDescription}>CSS3</p>
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332096124_1898921507112075_1867001865560316565_n.png?stp=cp0_dst-png&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=4FJ7TRSss2gAX-uWotL&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQpo46d-vp4E1qgz89_1nGa13b2i7eG-A2UqyagHcW-VA&oe=64D9F230"
+                        src={skillsImages.javascript}
                         alt="ico pic"
                       />
+                      <p className={css.imgDescription}>Javascript (ES6)</p>
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <SiTypescript
@@ -53,43 +56,117 @@ export const Skills = () => {
                           borderRadius: '5px',
                         }}
                       />
+                      <p className={css.imgDescription}>Typescript</p>
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334297181_654164693380639_5039900204347865199_n.png?stp=cp0_dst-png&_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=h_tVMG564eUAX-4vcDq&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTEEnPlCcSivl-aWYj9Zp0xRZEyZQ49TIwH7V-JhSTgXg&oe=64D9E3E1"
+                        src={skillsImages.react}
                         alt="ico pic"
                       />
+                      <p className={css.imgDescription}>React/Redux</p>
                     </li>
                   </ul>
                   <ul className={clsx(css.skillsCardList)}>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334121956_578550840960648_7016293354037149638_n.png?_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=nfDA9DoatR0AX-YpeTs&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ-kVlYqsjQGTlTv6DOlvC-W_Lt0rPdYujI7RoJJ6Rsgw&oe=64D9C36C"
+                        src={skillsImages.next}
                         alt="ico pic"
                       />
+                      <p className={css.imgDescription}>NextJs (SSR)</p>
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334531802_572897468206591_2342754920938403865_n.png?stp=cp0_dst-png&_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=M_XnjrFXyBkAX_C38cr&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRee-uvPywXToZdZOMW-omvJrAtv67DXkwZhaCHYzVpfQ&oe=64D9E81A"
+                        src={skillsImages.api}
                         alt="ico pic"
                       />
+                      <p className={css.imgDescription}>Api</p>
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/334676268_1479399715918189_1631366352366251437_n.png?stp=cp0_dst-png&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=OvHHxtWug-EAX-JwvD6&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdR7LV3UxVfwdV9vgef8mAc95GUG8FNzLBzXSBlz1Ag-Fw&oe=64D9DE11"
+                        src={skillsImages.sass}
                         alt="ico pic"
                       />
+                      <p className={css.imgDescription}>SASS</p>
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
-                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332098169_907159687266952_5777785164947134451_n.png?stp=cp0_dst-png&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=OnYYzL1PWT8AX9AmE9j&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQIj2KHhU24M55V1_q4cNhccCwTjcGk9afvafPh0HMuGg&oe=64D9ECF0"
+                        src={skillsImages.rwd}
                         alt="ico pic"
                       />
+                      <p className={css.imgDescription}>RWD</p>
+                    </li>
+                    <li className={clsx(css.skillsCardItem)}>
+                      <img
+                        className={clsx(css.skillsCardImg)}
+                        src={skillsImages.seo}
+                        alt="ico pic"
+                      />
+                      <p className={css.imgDescription}>SEO</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className={clsx(css.skillsCard)}>
+              <h3 className={clsx(css.skillsCardHeader)}>Backend</h3>
+              <div className={clsx(css.skillsBox)}>
+                <div className={clsx(css.skillsCardListWrapper)}>
+                  <ul className={clsx(css.skillsCardList)}>
+                    <li className={clsx(css.skillsCardItem)}>
+                      <img
+                        className={clsx(css.skillsCardImg)}
+                        src={skillsImages.nodejs}
+                        alt="ico pic"
+                      />
+                      <p className={css.imgDescription}>NodeJs</p>
+                    </li>
+                    <li className={clsx(css.skillsCardItem)}>
+                      <img
+                        className={clsx(css.skillsCardImg)}
+                        src={skillsImages.express}
+                        alt="ico pic"
+                      />
+                      <p className={css.imgDescription}>Express</p>
+                    </li>
+                    <li className={clsx(css.skillsCardItem)}>
+                      <img
+                        className={clsx(css.skillsCardImg)}
+                        src={skillsImages.mongodb}
+                        alt="ico pic"
+                      />
+                      <p className={css.imgDescription}>MongoDB</p>
+                    </li>
+                  </ul>
+                  <ul className={clsx(css.skillsCardList)}>
+                    <li className={clsx(css.skillsCardItem)}>
+                      <img
+                        className={clsx(css.skillsCardImg)}
+                        src={skillsImages.postman}
+                        alt="ico pic"
+                      />
+                      <p className={css.imgDescription}>Postman</p>
+                    </li>
+                    <li className={clsx(css.skillsCardItem)}>
+                      <img
+                        className={clsx(css.skillsCardImg)}
+                        src={skillsImages.firebase}
+                        alt="ico pic"
+                      />
+                      <p className={css.imgDescription}>Firebase</p>
+                    </li>
+                    <li className={clsx(css.skillsCardItem)}>
+                      <img
+                        className={clsx(css.skillsCardImg)}
+                        src={skillsImages.jwt}
+                        alt="ico pic"
+                      />
+                      <p className={css.imgDescription}>JWT</p>
                     </li>
                   </ul>
                 </div>

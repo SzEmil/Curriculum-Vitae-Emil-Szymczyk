@@ -12,7 +12,7 @@ export const SharedLayout = () => {
           <div className={clsx(css.wrapper)}>
             <p className={clsx(css.hello)}>Hi, I'm</p>
             <h1 className={clsx(css.headName)}>Emil Szymczyk</h1>
-            <p className={clsx(css.profesion)}>Frontend developer</p>
+            <p className={clsx(css.profesion)}>Fullstack developer</p>
             <div style={{ height: '60px' }}>
               <OverviewLink />
             </div>

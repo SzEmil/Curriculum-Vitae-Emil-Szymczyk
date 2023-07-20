@@ -1,9 +1,10 @@
+import React, { useState } from 'react';
 import clsx from 'clsx';
 import css from './Portfolio.module.css';
 import { projectsList } from './projectsList';
-import { useState } from 'react';
 import { nanoid } from 'nanoid';
 import { useInView } from 'react-intersection-observer';
+import { SiGithub } from 'react-icons/si';
 export const Portfolio = () => {
   const { ref, inView } = useInView({
     rootMargin: '-100px 0px',
@@ -13,7 +14,8 @@ export const Portfolio = () => {
   const [activeProjectId, setActiveProjectId] = useState(null);
 
   const handleClick = id => {
-    setActiveProjectId(id);
+    // Jeżeli kliknięty projekt jest już aktywny, to go dezaktywujemy
+    setActiveProjectId(prevId => (prevId === id ? null : id));
   };
 
   return (
@@ -77,11 +79,7 @@ export const Portfolio = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <img
-                          className={clsx(css.projectDesriptionGit)}
-                          alt="git pic"
-                          src="https://scontent.xx.fbcdn.net/v/t1.15752-9/333613275_157166563826589_61108254476814997_n.png?_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_ohc=8RCenn7rIJsAX8c1pDI&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTwG_AV0U75pmx1Cqu7ynQIaIqoBc0XwwNwXi4AE8MjXA&oe=64D9F880"
-                        />
+                        <SiGithub size={'24px'} color="white" />
                       </a>
                     </div>
                     {activeProjectId === project.id ? (
