@@ -1,13 +1,33 @@
 {
   "files": {
-    "main.css": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.92274337.css",
-    "main.js": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.15f0a9d1.js",
+    "main.css": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.63a0a258.css",
+    "main.js": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.507c3cdb.js",
+    "static/media/reactimages.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/reactimages.ebcabce021e1782bd7e6.png",
+    "static/media/reactmovies.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/reactmovies.8720cf567171853da7b6.png",
+    "static/media/filmLibrary.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/filmLibrary.5a4a56d7f64d6b111641.png",
+    "static/media/webstudio.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/webstudio.9f3c01e8b8b7e1a9b144.png",
+    "static/media/strizzes.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/strizzes.687145cb0c4cabe42267.png",
+    "static/media/country.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/country.32825cfb2dd2c5432a13.png",
+    "static/media/icecream.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/icecream.b2595e2eb462dfab27ff.png",
+    "static/media/pokestudio.jpg": "/Curriculum-Vitae-Emil-Szymczyk/static/media/pokestudio.e7b235102c9cb6c77709.jpg",
+    "static/media/footballFile.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/footballFile.afbf376bb942e0bb135c.png",
+    "static/media/educationFile.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/educationFile.dc9b2a1b1cb789ce4056.png",
+    "static/media/breakout.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/breakout.b8c1736cb80f7d4cd0a2.png",
+    "static/media/service.jpg": "/Curriculum-Vitae-Emil-Szymczyk/static/media/service.9591466c72e2e4874afe.jpg",
+    "static/media/seo.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/seo.48d3261ee150e93e893f.png",
+    "static/media/postman.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/postman.73784122f34c69527466.png",
+    "static/media/nodejs.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/nodejs.1fac080eeec0a547c743.png",
+    "static/media/mongodb.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/mongodb.7a16fc61d457c9e340e2.png",
+    "static/media/express.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/express.d8ca36401f415eb19364.png",
+    "static/media/phonebook.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/phonebook.b388d1a79672a0f5deed.png",
+    "static/media/next.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/next.e7c27390021ffa2b5760.png",
+    "static/media/firebase.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/firebase.65c4fe9f7eb228db7a4c.png",
     "index.html": "/Curriculum-Vitae-Emil-Szymczyk/index.html",
-    "main.92274337.css.map": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.92274337.css.map",
-    "main.15f0a9d1.js.map": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.15f0a9d1.js.map"
+    "main.63a0a258.css.map": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.63a0a258.css.map",
+    "main.507c3cdb.js.map": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.507c3cdb.js.map"
   },
   "entrypoints": [
-    "static/css/main.92274337.css",
-    "static/js/main.15f0a9d1.js"
+    "static/css/main.63a0a258.css",
+    "static/js/main.507c3cdb.js"
   ]
 }
