@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.63a0a258.css",
-    "main.js": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.507c3cdb.js",
+    "main.css": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.76191843.css",
+    "main.js": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.0ca40ea7.js",
     "static/media/reactimages.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/reactimages.ebcabce021e1782bd7e6.png",
     "static/media/reactmovies.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/reactmovies.8720cf567171853da7b6.png",
     "static/media/filmLibrary.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/filmLibrary.5a4a56d7f64d6b111641.png",
@@ -23,11 +23,11 @@
     "static/media/next.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/next.e7c27390021ffa2b5760.png",
     "static/media/firebase.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/firebase.65c4fe9f7eb228db7a4c.png",
     "index.html": "/Curriculum-Vitae-Emil-Szymczyk/index.html",
-    "main.63a0a258.css.map": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.63a0a258.css.map",
-    "main.507c3cdb.js.map": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.507c3cdb.js.map"
+    "main.76191843.css.map": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.76191843.css.map",
+    "main.0ca40ea7.js.map": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.0ca40ea7.js.map"
   },
   "entrypoints": [
-    "static/css/main.63a0a258.css",
-    "static/js/main.507c3cdb.js"
+    "static/css/main.76191843.css",
+    "static/js/main.0ca40ea7.js"
   ]
 }
