@@ -4,21 +4,32 @@ import { useInView } from 'react-intersection-observer';
 import skillsImages from './utils';
 import { SiTypescript } from 'react-icons/si/';
 export const Skills = () => {
-  const { ref, inView } = useInView({
+  const frontInView = useInView({
+    rootMargin: '-100px 0px',
+    triggerOnce: false,
+  });
+  const backendInView = useInView({
+    rootMargin: '-100px 0px',
+    triggerOnce: false,
+  });
+  const softInView = useInView({
     rootMargin: '-100px 0px',
     triggerOnce: false,
   });
   return (
-    <section
-      ref={ref}
-      className={clsx(css.skills, inView ? css.isVisible : css.noVisible)}
-    >
+    <section className={clsx(css.skills)}>
       <div className={clsx(css.container)}>
         <div className={clsx(css.skillsWrapper)}>
           <h3 className={clsx(css.skillsHeadThird)}>Propably most important</h3>
           <h2 className={clsx(css.skillsHead)}>My Skills</h2>
           <div className={clsx(css.skillsCardWrapper)}>
-            <div className={clsx(css.skillsCard)}>
+            <div
+              ref={frontInView.ref}
+              className={clsx(
+                css.skillsCard,
+                frontInView.inView ? css.isVisible : css.noVisible
+              )}
+            >
               <h3 className={clsx(css.skillsCardHeader)}>Frontend</h3>
               <div className={clsx(css.skillsBox)}>
                 <div className={clsx(css.skillsCardListWrapper)}>
@@ -113,7 +124,13 @@ export const Skills = () => {
               </div>
             </div>
 
-            <div className={clsx(css.skillsCard)}>
+            <div
+              ref={backendInView.ref}
+              className={clsx(
+                css.skillsCard,
+                backendInView.inView ? css.isVisible : css.noVisible
+              )}
+            >
               <h3 className={clsx(css.skillsCardHeader)}>Backend</h3>
               <div className={clsx(css.skillsBox)}>
                 <div className={clsx(css.skillsCardListWrapper)}>
@@ -173,7 +190,13 @@ export const Skills = () => {
               </div>
             </div>
 
-            <div className={clsx(css.skillsCard)}>
+            <div
+              ref={softInView.ref}
+              className={clsx(
+                css.skillsCard,
+                softInView.inView ? css.isVisible : css.noVisible
+              )}
+            >
               <h3 className={clsx(css.skillsCardHeader)}>Soft Skills</h3>
               <div className={clsx(css.skillsBox)}>
                 <div className={clsx(css.skillsCardListWrapper)}>

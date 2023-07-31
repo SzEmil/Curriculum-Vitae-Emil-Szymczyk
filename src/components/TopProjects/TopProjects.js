@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import clsx from 'clsx';
-import css from './Portfolio.module.css';
-import { projectsList } from './projectsList';
 import { nanoid } from 'nanoid';
 import { useInView } from 'react-intersection-observer';
 import { SiGithub } from 'react-icons/si';
-export const Portfolio = () => {
+import css from './topProjects.module.css';
+import clsx from 'clsx';
+import { topProjectsData } from './topProjectsData';
+
+export const TopProjects = () => {
   const { ref, inView } = useInView({
     rootMargin: '-100px 0px',
     triggerOnce: false,
   });
-
   const [activeProjectId, setActiveProjectId] = useState(null);
 
   const handleClick = id => {
@@ -25,12 +25,12 @@ export const Portfolio = () => {
       <div className={clsx(css.container)}>
         <div className={clsx(css.portfolioWrapper)}>
           <h3 className={clsx(css.portfolioHeadThird)}>
-            Some of my projects made while studying
+            Most recommended projects
           </h3>
-          <h2 className={clsx(css.portfolioHead)}>Learning jurney</h2>
+          <h2 className={clsx(css.portfolioHead)}>Portfolio</h2>
           <div>
             <ul className={clsx(css.projectList)}>
-              {projectsList.map(project => (
+              {topProjectsData.map(project => (
                 <li key={project.id} className={clsx(css.projectItem)}>
                   <div className={clsx(css.projectListCard)}>
                     <a href={project.web}>

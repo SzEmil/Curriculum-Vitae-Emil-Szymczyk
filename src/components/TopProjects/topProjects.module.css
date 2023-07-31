@@ -1,0 +1,169 @@
+.portfolio {
+  margin-top: 200px;
+}
+.container {
+  min-width: 320px;
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.portfolioWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolioHead {
+  color: white;
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 34px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+.portfolioHeadThird {
+  color: rgb(184, 184, 184);
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.projectList {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 0;
+  margin: 0;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+.projectItem {
+  border-radius: 5px;
+  position: relative;
+  width: calc(1200px / 3 - 40px);
+  /* background-color: rgb(37, 37, 73); */
+  /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  position: relative;
+}
+.projectImgContainer {
+  overflow: hidden;
+  border-radius: 5px;
+  width: 350px;
+}
+.projectImg {
+  border-radius: 5px;
+}
+.projectImgContainer .projectImg {
+  transition: transform 0.5s ease;
+}
+.projectImgContainer:hover .projectImg {
+  transform: scale(1.1);
+}
+
+.projectDesription {
+  color: white;
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  margin: 0;
+}
+.projectDesriptionHeader {
+  color: white;
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+.projectDesriptionTechList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding-bottom: 10px;
+}
+.projectDesriptionTech {
+  color: white;
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0;
+  padding: 5px;
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: default;
+}
+.projectDesriptionTech:hover {
+  background-color: #555;
+}
+.projectDesriptionOverview {
+  color: white;
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  padding-top: 10px;
+  /* z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 200px; */
+}
+.projectDesriptionBox {
+  display: flex;
+  align-items: center;
+}
+.projectDesriptionBtn {
+  padding: 8px 16px;
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.projectDesriptionBtn:hover {
+  background-color: #555;
+}
+.projectDesriptionGit {
+  width: 24px;
+  height: 100%;
+
+  transition: scale 250ms ease;
+}
+.projectDesriptionGitLink {
+  margin-left: 20px;
+}
+.projectDesriptionGitLink:hover .projectDesriptionGit {
+  scale: 1.2;
+}
+
+.isVisible {
+  opacity: 1;
+  transition: all 2s;
+  transform: translateY(0);
+  filter: blur(0);
+}
+.noVisible {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 1s;
+  filter: blur(5px);
+}
