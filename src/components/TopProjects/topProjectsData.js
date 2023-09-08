@@ -1,10 +1,40 @@
 import service from '../../images/service.jpg';
 import pokestudio from '../../images/pokestudio.jpg';
+import langChain from '../../images/langChain.jpg';
 
 export const topProjectsData = [
   {
+    id: 'project3',
+    name: 'LangChain Learning Platform',
+    picture: langChain,
+    tech: [
+      'HTML5',
+      'CSS3',
+      'Typescript',
+      'React',
+      'Redux/toolkit',
+      'react-persist',
+      'NodeJs',
+      'Express',
+      'PayU',
+      'Api-Key-Auth',
+      'Email-Verify',
+      'MongoDB',
+      'Auth-User',
+      'mongoose',
+      'REST API',
+      'Hooks',
+      'css-modules',
+      'RWD',
+    ],
+    overwiev:
+      'My LangChain learning platform features a modernist website showcasing courses and their capabilities. Users can browse available courses, make purchases using PayU, and upon successful payment, access the course in their dashboard to begin learning. The platform offers video materials, text content, and interactive quizzes.',
+    web: 'https://szemil.github.io/LangChain-LearningPlatform/',
+    git: 'https://github.com/SzEmil/LangChain-LearningPlatform',
+  },
+  {
     id: 'project0',
-    name: 'Service (Working on...)',
+    name: 'Service',
     picture: service,
     tech: [
       'HTML5',
