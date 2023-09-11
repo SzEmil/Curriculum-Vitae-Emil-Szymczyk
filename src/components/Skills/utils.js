@@ -13,7 +13,8 @@ import mongodb from '../../images/skills/mongodb.png';
 import postman from '../../images/skills/postman.png';
 import next from '../../images/skills/next.png';
 import seo from '../../images/skills/seo.png';
-
+import sql from '../../images/skills/sql.png';
+import mysql from '../../images/skills/mysq.png';
 const skillsImages = {
   html,
   css,
@@ -30,6 +31,8 @@ const skillsImages = {
   postman,
   next,
   seo,
+  sql,
+  mysql,
 };
 
 export default skillsImages;

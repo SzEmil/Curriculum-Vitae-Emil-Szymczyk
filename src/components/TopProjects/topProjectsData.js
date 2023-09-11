@@ -1,6 +1,7 @@
 import service from '../../images/service.jpg';
 import pokestudio from '../../images/pokestudio.jpg';
 import langChain from '../../images/langChain.jpg';
+import chatApp from '../../images/chatApp.jpg'
 
 export const topProjectsData = [
   {
@@ -59,6 +60,33 @@ export const topProjectsData = [
       'Application that allow waitstaff to add restaurants, menus with detailed dishes, manage tables, effortlessly split bills, solving billing and order management challenges. Also allows inviting waitstaff to collaborate. All data securely stored in a database.',
     web: 'https://service-app-jet.vercel.app/',
     git: 'https://github.com/SzEmil/service-app',
+  },
+  {
+    id: 'project4',
+    name: 'Chat-App',
+    picture: chatApp,
+    tech: [
+      'HTML5',
+      'CSS3',
+      'Typescript',
+      'React',
+      'Redux/toolkit',
+      'react-persist',
+      'NodeJs',
+      'Express',
+      'Web-Sockets',
+      'SQL',
+      'MySQL',
+      'Auth-User',
+      'REST API',
+      'Hooks',
+      'css-modules',
+      'RWD',
+    ],
+    overwiev:
+      'Chat-App is a custom chat application designed for seamless communication with friends and peers. This application allows users to register as unique individuals, granting them access to the chat functionality. Users can choose from a list of available members and create new conversations with them. With the ability to manage multiple chat sessions simultaneously, Chat-App ensures a dynamic and interactive chatting experience for all its users.',
+    web: 'https://szemil.github.io/chat-app/',
+    git: 'https://github.com/SzEmil/chat-app',
   },
   {
     id: 'project1',

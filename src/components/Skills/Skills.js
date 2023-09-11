@@ -159,6 +159,14 @@ export const Skills = () => {
                       />
                       <p className={css.imgDescription}>MongoDB</p>
                     </li>
+                    <li className={clsx(css.skillsCardItem)}>
+                      <img
+                        className={clsx(css.skillsCardImg)}
+                        src={skillsImages.sql}
+                        alt="ico pic"
+                      />
+                      <p className={css.imgDescription}>SQL</p>
+                    </li>
                   </ul>
                   <ul className={clsx(css.skillsCardList)}>
                     <li className={clsx(css.skillsCardItem)}>
@@ -184,6 +192,14 @@ export const Skills = () => {
                         alt="ico pic"
                       />
                       <p className={css.imgDescription}>JWT</p>
+                    </li>
+                    <li className={clsx(css.skillsCardItem)}>
+                      <img
+                        className={clsx(css.skillsCardImg)}
+                        src={skillsImages.mysql}
+                        alt="ico pic"
+                      />
+                      <p className={css.imgDescription}>MySQL</p>
                     </li>
                   </ul>
                 </div>
