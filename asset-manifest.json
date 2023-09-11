@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.76191843.css",
-    "main.js": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.1a46546a.js",
+    "main.js": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.fe115158.js",
     "static/media/reactimages.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/reactimages.ebcabce021e1782bd7e6.png",
     "static/media/reactmovies.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/reactmovies.8720cf567171853da7b6.png",
     "static/media/filmLibrary.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/filmLibrary.5a4a56d7f64d6b111641.png",
@@ -15,20 +15,23 @@
     "static/media/educationFile.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/educationFile.dc9b2a1b1cb789ce4056.png",
     "static/media/breakout.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/breakout.b8c1736cb80f7d4cd0a2.png",
     "static/media/service.jpg": "/Curriculum-Vitae-Emil-Szymczyk/static/media/service.9591466c72e2e4874afe.jpg",
+    "static/media/chatApp.jpg": "/Curriculum-Vitae-Emil-Szymczyk/static/media/chatApp.00ce5ed1643f6359fc1f.jpg",
     "static/media/seo.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/seo.48d3261ee150e93e893f.png",
+    "static/media/mysq.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/mysq.bdbd1eb709e4c13258d2.png",
     "static/media/postman.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/postman.73784122f34c69527466.png",
     "static/media/nodejs.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/nodejs.1fac080eeec0a547c743.png",
     "static/media/mongodb.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/mongodb.7a16fc61d457c9e340e2.png",
+    "static/media/sql.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/sql.86cdb54cc5fc9c392ebd.png",
     "static/media/express.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/express.d8ca36401f415eb19364.png",
     "static/media/phonebook.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/phonebook.b388d1a79672a0f5deed.png",
     "static/media/next.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/next.e7c27390021ffa2b5760.png",
     "static/media/firebase.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/firebase.65c4fe9f7eb228db7a4c.png",
     "index.html": "/Curriculum-Vitae-Emil-Szymczyk/index.html",
     "main.76191843.css.map": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.76191843.css.map",
-    "main.1a46546a.js.map": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.1a46546a.js.map"
+    "main.fe115158.js.map": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.fe115158.js.map"
   },
   "entrypoints": [
     "static/css/main.76191843.css",
-    "static/js/main.1a46546a.js"
+    "static/js/main.fe115158.js"
   ]
 }
