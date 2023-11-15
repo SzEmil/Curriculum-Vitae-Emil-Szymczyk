@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.76191843.css",
-    "main.js": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.bd54845d.js",
+    "main.js": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.7516c8d6.js",
     "static/media/reactimages.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/reactimages.ebcabce021e1782bd7e6.png",
     "static/media/reactmovies.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/reactmovies.8720cf567171853da7b6.png",
     "static/media/filmLibrary.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/filmLibrary.5a4a56d7f64d6b111641.png",
@@ -16,6 +16,7 @@
     "static/media/breakout.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/breakout.b8c1736cb80f7d4cd0a2.png",
     "static/media/service.jpg": "/Curriculum-Vitae-Emil-Szymczyk/static/media/service.9591466c72e2e4874afe.jpg",
     "static/media/chatApp.jpg": "/Curriculum-Vitae-Emil-Szymczyk/static/media/chatApp.00ce5ed1643f6359fc1f.jpg",
+    "static/media/zustand.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/zustand.7a8c88f6e06188ce8b86.png",
     "static/media/seo.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/seo.48d3261ee150e93e893f.png",
     "static/media/mysq.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/mysq.bdbd1eb709e4c13258d2.png",
     "static/media/postman.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/postman.73784122f34c69527466.png",
@@ -26,12 +27,13 @@
     "static/media/phonebook.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/phonebook.b388d1a79672a0f5deed.png",
     "static/media/next.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/next.e7c27390021ffa2b5760.png",
     "static/media/firebase.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/firebase.65c4fe9f7eb228db7a4c.png",
+    "static/media/react-query.png": "/Curriculum-Vitae-Emil-Szymczyk/static/media/react-query.44b0741da0239ba5838a.png",
     "index.html": "/Curriculum-Vitae-Emil-Szymczyk/index.html",
     "main.76191843.css.map": "/Curriculum-Vitae-Emil-Szymczyk/static/css/main.76191843.css.map",
-    "main.bd54845d.js.map": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.bd54845d.js.map"
+    "main.7516c8d6.js.map": "/Curriculum-Vitae-Emil-Szymczyk/static/js/main.7516c8d6.js.map"
   },
   "entrypoints": [
     "static/css/main.76191843.css",
-    "static/js/main.bd54845d.js"
+    "static/js/main.7516c8d6.js"
   ]
 }
