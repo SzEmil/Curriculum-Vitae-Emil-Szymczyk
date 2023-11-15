@@ -8,7 +8,7 @@ import { SiGithub } from 'react-icons/si';
 export const Portfolio = () => {
   const { ref, inView } = useInView({
     rootMargin: '-100px 0px',
-    triggerOnce: false,
+    triggerOnce: true,
   });
 
   const [activeProjectId, setActiveProjectId] = useState(null);

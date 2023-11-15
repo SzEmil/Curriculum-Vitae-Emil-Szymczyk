@@ -15,6 +15,10 @@ import next from '../../images/skills/next.png';
 import seo from '../../images/skills/seo.png';
 import sql from '../../images/skills/sql.png';
 import mysql from '../../images/skills/mysq.png';
+import reactQuery from '../../images/skills/react-query.png';
+import zustand from '../../images/skills/zustand.png';
+import prisma from '../../images/skills/prisma.png';
+
 const skillsImages = {
   html,
   css,
@@ -33,6 +37,9 @@ const skillsImages = {
   seo,
   sql,
   mysql,
+  reactQuery,
+  zustand,
+  prisma,
 };
 
 export default skillsImages;

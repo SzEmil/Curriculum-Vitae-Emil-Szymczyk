@@ -7,7 +7,7 @@ import { useInView } from 'react-intersection-observer';
 export const Footer = () => {
   const { ref, inView } = useInView({
     rootMargin: '-100px 0px',
-    triggerOnce: false,
+    triggerOnce: true,
   });
   return (
     <footer

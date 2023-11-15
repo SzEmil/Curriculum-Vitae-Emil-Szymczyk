@@ -6,15 +6,15 @@ import { SiTypescript } from 'react-icons/si/';
 export const Skills = () => {
   const frontInView = useInView({
     rootMargin: '-100px 0px',
-    triggerOnce: false,
+    triggerOnce: true,
   });
   const backendInView = useInView({
     rootMargin: '-100px 0px',
-    triggerOnce: false,
+    triggerOnce: true,
   });
   const softInView = useInView({
     rootMargin: '-100px 0px',
-    triggerOnce: false,
+    triggerOnce: true,
   });
   return (
     <section className={clsx(css.skills)}>
@@ -77,8 +77,6 @@ export const Skills = () => {
                       />
                       <p className={css.imgDescription}>React/Redux</p>
                     </li>
-                  </ul>
-                  <ul className={clsx(css.skillsCardList)}>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
                         className={clsx(css.skillsCardImg)}
@@ -86,6 +84,24 @@ export const Skills = () => {
                         alt="ico pic"
                       />
                       <p className={css.imgDescription}>NextJs (SSR)</p>
+                    </li>
+                  </ul>
+                  <ul className={clsx(css.skillsCardList)}>
+                    <li className={clsx(css.skillsCardItem)}>
+                      <img
+                        className={clsx(css.skillsCardImg)}
+                        src={skillsImages.reactQuery}
+                        alt="ico pic"
+                      />
+                      <p className={css.imgDescription}>React-Query</p>
+                    </li>
+                    <li className={clsx(css.skillsCardItem)}>
+                      <img
+                        className={clsx(css.skillsCardImg)}
+                        src={skillsImages.zustand}
+                        alt="ico pic"
+                      />
+                      <p className={css.imgDescription}>Zustand</p>
                     </li>
                     <li className={clsx(css.skillsCardItem)}>
                       <img
@@ -166,6 +182,14 @@ export const Skills = () => {
                         alt="ico pic"
                       />
                       <p className={css.imgDescription}>SQL</p>
+                    </li>
+                    <li className={clsx(css.skillsCardItem)}>
+                      <img
+                        className={clsx(css.skillsCardImg)}
+                        src={skillsImages.prisma}
+                        alt="ico pic"
+                      />
+                      <p className={css.imgDescription}>Prisma</p>
                     </li>
                   </ul>
                   <ul className={clsx(css.skillsCardList)}>
